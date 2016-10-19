@@ -1,6 +1,17 @@
 Swagger proxy validator
 =======================
 
+Development
+-----------
+
+If you want to develop and maintain this package, you will have to install all the dependencies,
+etc. To do so, run:
+
+    python setup.py develop
+
+You can run this command in virtualenv so you will not have the dependencies in the main Python
+libraries.
+
 Setup
 -----
 

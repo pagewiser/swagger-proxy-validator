@@ -1,3 +1,10 @@
 requests==2.11.1
 swagger-parser==0.1.10
 swagger-spec-validator==2.0.2
+Twisted==16.4.1
+simplejson==3.8.1
+#flex==5.9.0
+#Fixed some parts of the code, not yet merged
+https://github.com/marten-cz/flex/archive/new-features.tar.gz
+# On windows uncomment this
+#pypiwin32>=219
