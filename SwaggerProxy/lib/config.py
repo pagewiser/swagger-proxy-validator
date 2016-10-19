@@ -36,10 +36,11 @@ Please review the configuration and retry...""" % config_file_path)
             f.write(CONFIG_TEMPLATE)
 
 CONFIG_TEMPLATE = """proxy:
- hostname: localhost
  port: 8000
 api:
  url: http://localhost:8090/
 swagger:
- file: ./core.yaml
+ files:
+  1: ../core.yaml
+  2: ../auth.yaml
 """
