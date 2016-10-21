@@ -33,12 +33,16 @@ process of installing dependencies, install VC For Python2.7.
     Link1: http://aka.ms/vcpython27 (slow connection)
     Link2: https://www.microsoft.com/en-ca/download/details.aspx?id=44266
 
+Uncomment pypiwin package in requirements.txt file.
+
 Then you can install everything to virtualenv with these commands:
 
     pip install virtualenv
     virtualenv venv
     venv/Scripts/activate
     venv/Scripts/pip.exe install -r requirements.txt
+    or
+    venv/Scripts/pip.exe --proxy="http://........" install -r requirements.txt
 
 ### On Linux
 
@@ -63,7 +67,7 @@ Run
 
 Run the script by:
 
-    python proxy.py
+    python SwaggerProxy/proxy.py
 
 Using with swagger
 ------------------
