@@ -1,3 +1,5 @@
+.PHONY: configure run
+
 configure:
     virtualenv venv
     source venv/bin/activate
