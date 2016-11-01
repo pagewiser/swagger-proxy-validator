@@ -43,9 +43,13 @@ Then you can install everything to virtualenv with these commands:
     or with proxy
     venv/Scripts/pip.exe --proxy="http://........" install -r requirements.txt
 
+__Note__: It's possible that `pip install virtualenv` will fail with unknown pip command.
+Check that python is in your _$PATH_ or use absolute path to pip, something like
+`c:\Python27\Scripts\pip.exe install virtualenv`.
+
 ### On Linux
 
-_Not tested yet_
+__Not tested yet__, you can follow same approach as for Windows.
 
 Linux comes with prepared make file. For the installation process, run
 
