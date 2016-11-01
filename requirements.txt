@@ -6,5 +6,3 @@ simplejson==3.8.1
 #flex==5.9.0
 #Fixed some parts of the code, not yet merged
 https://github.com/marten-cz/flex/archive/new-features.tar.gz
-# On windows uncomment this
-#pypiwin32>=219
